@@ -14,7 +14,7 @@
 
 1. **Скачать проект**:  
    - Склонируйте репозиторий или скачайте ZIP-архив:
-   git clone https://github.com/YourName/roguelike_example.git
+   `git clone https://github.com/p1grishin/65-curse.git`
    - Перейдите в папку проекта
    - Создайте новое виртуальное окружение `python -m venv venv`
    - Активируйте его 
