@@ -1,0 +1,56 @@
+DEBUG_MODE = False  # Отладочную информация
+
+FULLSCREEN = False
+
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+FPS = 60
+
+TILE_SIZE = 128
+
+# Параметры игрока
+INITIAL_PLAYER_SPEED = 3
+INITIAL_PLAYER_HP = 100
+INITIAL_PLAYER_DAMAGE = 10
+BULLET_SPEED = 7
+AUTOFIRE_INTERVAL = 0.5
+
+# Параметры врагов и босса
+ENEMY_BASE_SPEED = 0.5
+ENEMY_BASE_HP = 20
+ENEMY_BASE_DAMAGE = 10
+ENEMY_SPAWN_RADIUS = 250
+
+BOSS_EVERY_X_LEVELS = 5
+BOSS_POWER_MULT = 30
+BOSS_COIN_MULTIPLIER = 5
+
+# Параметры уровней
+LEVEL_DURATION = 25
+LEVEL_INCREASE_INTERVAL = 3
+LEVEL_TIME_INCREASE = 5
+
+# Магазин
+UPGRADE_COST_BASE = 3
+UPGRADE_COST_DELTA = 0.2
+UPGRADE_AMOUNT = {
+    "strength": 2,
+    "agility": 0.1,
+    "endurance": 10
+}
+
+# Прочее
+COIN_VALUE = 1
+WORLD_WIDTH = 2000
+WORLD_HEIGHT = 2000
+
+SAVE_FILE = "save.json"
+
+# Цвета
+WHITE = (255, 255, 255)
+RED =   (255,   0,   0)
+BLACK = (0,   0,   0)
+GOLD  = (255, 215,   0)
+GREEN = (0,   255,   0)
+GRAY  = (100, 100, 100)
+DARK_GRAY = (50,  50,  50)
